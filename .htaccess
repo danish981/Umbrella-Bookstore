@@ -1,0 +1,9 @@
+# if user tries to access the pages directly
+Options -Indexes
+
+# snipped copied from minima code - mvc with design with less website
+RewriteEngine On
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*)$ index.php?url=$1 [L,QSA]

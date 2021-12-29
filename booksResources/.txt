@@ -1,0 +1,4 @@
+add text books here in PDF format
+add descriptions in the database
+add proper book price in the database
+generate a receipt filled with user data, book title, price, author, quantity

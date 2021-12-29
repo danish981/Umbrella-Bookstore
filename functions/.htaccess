@@ -1,0 +1,2 @@
+# if user tries to access the pages directly
+Options -indexes

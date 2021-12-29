@@ -1,0 +1,141 @@
+/* this signica font is included inside bootstrap/fonts/signica-xxx */
+/* font forget to include the fallback font */
+body {
+    font-family: "Montserrat", sans-serif;
+    background: url("../img/bg-body.jpg");
+    /*background: rgb(34, 193, 195);*/
+    /*background: linear-gradient(0deg, rgba(34, 193, 195, 1) 0%, rgba(81, 201, 93, 1) 100%);*/
+
+}
+
+/* ========= BOOK HOVER AND BOX SHADOW =========== */
+.book-hover {
+    transition: 0.2s;
+    cursor: pointer;
+    box-shadow: 0 3px 14px 6px lightgray;
+}
+
+.book-hover:hover {
+    box-shadow: 0 7px 14px 10px #68a3d3;
+}
+
+/* ============  BOOK HOVER BOX SHADOW =========== */
+.four-books-margin-bottom {
+    margin-bottom: 20px;
+}
+
+.book-catalog {
+    letter-spacing: 1px;
+    word-spacing: 2px;
+    font-weight: bolder;
+    text-align: center;
+    font-size: 30px;
+    font-family: "Signika Light", sans-serif;
+}
+
+/* ====================FONT SIZES========================= */
+.big-font-1 {
+    font-size: 16px;
+}
+
+.big-font-2 {
+    font-size: 24px;
+}
+
+.big-font-3 {
+    font-size: 30px;
+}
+
+.big-font-4 {
+    font-size: 38px;
+}
+
+.big-font-5 {
+    font-size: 46px;
+}
+
+/* ================FONT SIZES================== */
+.publisher-list {
+    list-style-type: none;
+}
+
+/* ====================  MARGIN TOP AND BOTTOMS =========================== */
+.margin-top-bottom-1 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.margin-top-bottom-2 {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.margin-top-bottom-3 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.margin-top-bottom-4 {
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.margin-top-bottom-5 {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+/* ===============================MARGIN TOP AND BOTTOMS=============================== */
+
+.style-badge {
+    color: #000;
+    padding: 10px;
+    background-color: #fff;
+    margin-right: 20px;
+    margin-bottom: 4px;
+    border-radius: 30%;
+    font-size: large;
+}
+
+.border-with-shadow {
+    border: 1px solid lightgray;
+    border-radius: 10px;
+    box-shadow: 0 3px 14px 6px lightgray;
+}
+
+.table-bg {
+    background-color: rgba(125, 136, 178, 0.09);
+}
+
+.table-heading-bg {
+    background-color: rgba(20, 20, 114, 0.11);
+}
+
+.heading-hover {
+    transition: 0.4s;
+    cursor: pointer;
+    letter-spacing: 1px;
+}
+
+.heading-hover:hover {
+    letter-spacing: 1.4px;
+    background-color: rgba(38, 62, 114, 0.11);
+}
+
+/* ------------------------ books table cute ---------------- */
+
+.beautify-table-rows tr {
+    transition: 0.2s;
+}
+
+.beautify-table-rows tr:nth-child(even) {
+    background-color: rgba(74, 143, 222, 0.08);
+}
+
+.beautify-table-rows tr:hover {
+    cursor: pointer;
+}
+
+/* ---------------------------ends books table cute ----------------- */
+
+/* the table needs to be done css, one after one tr["change"] */
