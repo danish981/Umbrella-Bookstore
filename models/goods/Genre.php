@@ -10,7 +10,7 @@ spl_autoload_register(function ($class) {
 });
 
 class Genre {
-    private $description;
+    private string $description;
     private $id;
 
     public function __construct($description, $id = NULL) {
@@ -18,7 +18,7 @@ class Genre {
         $this->id = $id;
     }
 
-    public function getDescription() {
+    public function getDescription() : string {
         return $this->description;
     }
 

@@ -10,7 +10,7 @@ spl_autoload_register(function ($class) {
 });
 
 class Publishers {
-    private $name;
+    private string $name;
     private $address;
     private $id;
 
@@ -20,7 +20,7 @@ class Publishers {
         $this->id = $id;
     }
 
-    public function getName() {
+    public function getName() : string {
         return $this->name;
     }
 

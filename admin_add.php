@@ -23,7 +23,7 @@ if (isset($_POST['add'])) {
     $descr = validateField($_POST['descr']);
     $descr = mysqli_real_escape_string($conn, $descr);
 
-    $price = floatval(validateField($_POST['price']));
+    $price = (float)validateField($_POST['price']);
     $price = mysqli_real_escape_string($conn, $price);
 
     // it is drop down, no need of its validation

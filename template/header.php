@@ -15,7 +15,7 @@
     <link rel="stylesheet" href="./assets/css/bootstrap/montserrat-regular.ttf">
 
     <!-- this title variable is written before the page executed -->
-    <title><?php echo $title; ?></title>
+    <title><?php echo $title ?? 'Umbrella Bookstore'; ?></title>
 
     <link rel="shortcut icon" type="image/jpg" href="./assets/img/favicon.png"/>
 

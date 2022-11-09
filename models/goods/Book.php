@@ -10,33 +10,33 @@ spl_autoload_register(function ($class) {
 });
 
 class Book implements Damage {
-    private static $objects = [];
-    private $id;
-    private $name;
-    private $author;
-    private $publisher;
-    private $genre;
-    private $isbn;
-    private $sellPrice;
-    private $buyPrice;
-    private $image;
-    private $description;
-    private $actualQuantity;
-    private $quantity;
+    private static array $objects = [];
+    private int $id;
+    private string $name;
+    private string $author;
+    private string $publisher;
+    private string $genre;
+    private string $isbn;
+    private float $sellPrice;
+    private float $buyPrice;
+    private string $image;
+    private string $description;
+    private int $actualQuantity;
+    private int $quantity;
 
     public function __construct(
-        $id,
-        $name,
-        int $isbn,
-        float $sellPrice,
-        float $buyPrice,
-        string $image,
-        string $description,
-        int $actualQuantity,
-        int $quantity,
-        Author $author = NULL,
+        int        $id,
+        string     $name,
+        string     $isbn,
+        float      $sellPrice,
+        float      $buyPrice,
+        string     $image,
+        string     $description,
+        int        $actualQuantity,
+        int        $quantity,
+        Author     $author = NULL,
         Publishers $publisher = NULL,
-        Genre $genre = NULL) {
+        Genre      $genre = NULL) {
         $this->id = $id;
         $this->name = $name;
         $this->author = $author;
@@ -69,25 +69,25 @@ class Book implements Damage {
         $this->actualQuantity += $quantity;
     }
 
-    public function backBook($amount) {
+    public function increaseBooks($amount) {
         $this->quantity += $amount;
     }
 
-    public function delivering_done($amount) {
+    public function deliveringDone($amount) {
         $this->actualQuantity -= $amount;
     }
 
     public function damageAllData() {
-        $this->id = NULL;
+        $this->id = -1;
         $this->name = NULL;
-        $this->quantity = NULL;
+        $this->quantity = 0;
         $this->author = NULL;
         $this->isbn = NULL;
-        $this->buyPrice = NULL;
-        $this->sellPrice = NULL;
+        $this->buyPrice = 0;
+        $this->sellPrice = -1;
         $this->image = NULL;
         $this->description = NULL;
-        $this->actualQuantity = NULL;
+        $this->actualQuantity = -1;
         $this->genre = NULL;
     }
 

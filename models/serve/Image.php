@@ -12,9 +12,10 @@ class Image {
             $errors[] = 'Acceptable images is JPG or PNG';
         if (!count($errors)) {
             return move_uploaded_file($_FILES['image']['tmp_name'], $GLOBALS['imagePath']);
-        } else {
-            foreach ($errors as $er)
-                echo "<script>alert(\"$er\")</script>";
+        }
+
+        foreach ($errors as $er) {
+            echo "<script>alert(\"$er\")</script>";
         }
         return false;
     }

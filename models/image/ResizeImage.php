@@ -70,7 +70,7 @@ class ResizeImage {
     /**
      * Save the image as the image type the original image was
      * @param $savePath
-     * @param  string $imageQuality - The qulaity level of image to create
+     * @param string $imageQuality - The qulaity level of image to create
      * @param bool $download
      * @return Saves the image
      * @internal param $String [type] $savePath     - The path to store the new image
@@ -109,9 +109,9 @@ class ResizeImage {
 
     /**
      * Resize the image to these set dimensions
-     * @param  int $width - Max width of the image
-     * @param  int $height - Max height of the image
-     * @param  string $resizeOption - Scale option for the image
+     * @param int $width - Max width of the image
+     * @param int $height - Max height of the image
+     * @param string $resizeOption - Scale option for the image
      * @return Save new image
      */
     public function resizeTo($width, $height, $resizeOption = 'default') {
@@ -149,7 +149,7 @@ class ResizeImage {
 
     /**
      * Get the resized height from the width keeping the aspect ratio
-     * @param  int $width - Max image width
+     * @param int $width - Max image width
      * @return float
      */
     private function resizeHeightByWidth($width) {
@@ -158,7 +158,7 @@ class ResizeImage {
 
     /**
      * Get the resized width from the height keeping the aspect ratio
-     * @param  int $height - Max image height
+     * @param int $height - Max image height
      * @return float
      */
     private function resizeWidthByHeight($height) {
