@@ -5,7 +5,7 @@
         <a href="https://github.com/danish981/bookstore" target="_blank"> Project Source Code </a>
     </div>
     <div class="text-muted pull-right">
-        <a class="btn btn-primary btn-sm" href="admin.php">Admin Login</a>
+        <a class="btn btn-primary btn-sm" href="/admin.php">Admin Login</a>
     </div>
     <div class="text-center text-muted">
         <p>2020 - <?php echo date("Y"); ?> Copyright &copy; Umbrella Bookstore. All Rights Reserved</p>
