@@ -10,7 +10,6 @@ class Admin {
         $this->id = $id;
         $this->name = $name;
         $this->pass = $pass;
-        self::$admins;
     }
 
     public function getId() {
