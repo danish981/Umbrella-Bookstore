@@ -1,52 +1,43 @@
 # Umbrella Bookstore
-##### Umbrella Bookstore is an Online-Ecommerce platform that deals with useful soft books that are advantageous between programmers and developers as well as for non-techies or starters
 
-[![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master)](http://bookstore-project.freecluster.eur)
+![Umbrella Bookstore](https://user-images.githubusercontent.com/42686972/135336498-277e6eba-83c3-4d24-8fec-848f4dedc350.jpg)
 
+Umbrella Bookstore is an online e-commerce platform that offers a wide range of useful soft books catering to programmers, developers, non-techies, and beginners. Our goal is to provide a convenient and enriching shopping experience for individuals seeking books that are advantageous in the world of technology and beyond.
 
+## Features
+- Browse and add books to the cart
+- Explore books by different categories and publishers
+- Admin privileges for managing books, book details, prices, publishers, and book display order
+- High-performance website capable of handling a high volume of traffic without crashes
+- Robust security measures in place to protect against SQL injection and other malicious attacks
+- Extensive book collection with easy scrolling for seamless browsing
+- Contact functionality for users to request new books
+- Dynamic front page showcasing featured books with one-click access
+- Order completion resets the details and redirects the user to the home page
 
-![umbrella bookstore](https://user-images.githubusercontent.com/42686972/135336498-277e6eba-83c3-4d24-8fec-848f4dedc350.jpg)
+## Technologies Used
+- PHP and MySQL for backend functionality
+- Bootstrap 4 for responsive and modern design
+- HTML, CSS, and JavaScript for frontend development
+- jQuery for enhanced interactivity
 
+## Design Patterns Followed
+- DRY (Don't Repeat Yourself) pattern for efficient and maintainable code
+- KISS (Keep It Simple, Stupid) pattern for simplicity and readability
 
+## Local Installation
+To run the Umbrella Bookstore locally, follow these steps:
+1. Clone the repository: `git clone https://github.com/danish981/bookstore.git`
+2. Start PHP and MySQL servers
+3. Create a database named "bookstore"
+4. Import the provided database file located in the "database" folder into your local project
 
-### Features
-- User can add or remove books in the cart
-- User can explore the books and books by certain publishers
-- Only admin can handle the books, book details, prices, publishers and order of displaying the books
-- website can handle hundreds and thousands of hits per day without crashing
-- website is secure from SQL injection through fields and all other malicious attack through URL
-- Many books and catalogue can be seen in page by scrolling down
-- User can contact with ecommerce store owners and ask for a new book
-- Four books are appeared on the front, while many other books are waiting to be accessed via one click
-- after the order completion, entire of the details reset and user is redirected to the home page
+## Visit the Umbrella Bookstore
+You can visit the live version of Umbrella Bookstore at [http://bookstore-project.freecluster.eu](http://bookstore-project.freecluster.eu)
 
-### Technologies used
+## Credentials
+Use the following credentials to access the admin panel:
+- Username: admin
+- Password: admin12345
 
-- PHP / mySQL
-- Bootstrap 4 
-- HTML / CSS / JS
-- jQuery
-
-### Design patterns followed
-- DRY pattern
-- KISS pattern
-
-
-
-## Local installation
-```txt
-clone the repo https://github.com/danish981/bookstore.git
-run PHP and mySQL servers
-create database "bookstore"
-import the databsae given in the folder database into your local project
-```
-### Visit the Umbrella Bookstore
-<http://bookstore-project.freecluster.eu>
-
-### Credentials
-```txt
-admin username : admin
-admin password : admin12345
-```
-
-
+Thank you for choosing Umbrella Bookstore! Enjoy browsing and discovering the perfect books for your needs.
